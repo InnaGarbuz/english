@@ -1,0 +1,253 @@
+@charset "UTF-8";
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  position: relative;
+  line-height: 1.42857;
+  font-weight: bold; }
+
+ul {
+  list-style: none; }
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  z-index: 9; }
+  header .logo {
+    width: 100%; }
+    header .logo img {
+      width: 100%; }
+  header .nav-bar {
+    width: 100%;
+    text-align: center; }
+    header .nav-bar ul {
+      padding: 0;
+      margin: 0; }
+      header .nav-bar ul li {
+        display: inline-block;
+        padding: 0 8px; }
+        header .nav-bar ul li a {
+          color: #333; }
+        header .nav-bar ul li a.sosial {
+          background: #333;
+          padding: 3px 5px;
+          color: #fff; }
+        header .nav-bar ul li a.login {
+          border: 1px solid #333;
+          padding: 5px 20px;
+          border-radius: 20px; }
+
+.banner {
+  width: 100%;
+  background: url("../img/o-MAN-COMPUTER-facebook.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: 0 -170px;
+  position: relative; }
+  .banner .banner-text {
+    width: 300px;
+    position: absolute;
+    left: 9%;
+    top: 16%; }
+    .banner .banner-text h1 {
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 1; }
+    .banner .banner-text p {
+      font-size: 18px; }
+  .banner .bottom-panel {
+    background: rgba(27, 52, 85, 0.69);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20%;
+    left: 0; }
+    .banner .bottom-panel p {
+      color: #fff;
+      padding: 20px 0; }
+
+.btn-red {
+  width: 100%;
+  margin: 10px 0; }
+  .btn-red button {
+    background: #ff3d6f;
+    padding: 8px 40px;
+    color: #fff;
+    border: none;
+    border-radius: 20px; }
+
+.title-text {
+  width: 100%;
+  margin: 40px 0; }
+  .title-text h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1; }
+
+.title-text-black {
+  width: 100%;
+  margin: 40px 0; }
+  .title-text-black h2 {
+    color: #333;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1; }
+  .title-text-black p {
+    font-weight: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 40%; }
+
+.stadu {
+  background: #20293a;
+  padding: 40px 0; }
+  .stadu .row-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+    .stadu .row-flex .stadu-input {
+      width: 30%;
+      margin: 0;
+      height: 320px; }
+      .stadu .row-flex .stadu-input .statu-img {
+        width: 100%; }
+        .stadu .row-flex .stadu-input .statu-img img {
+          width: 100%;
+          height: 236px;
+          border-radius: 5px; }
+      .stadu .row-flex .stadu-input p {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400; }
+    .stadu .row-flex .sort {
+      width: 100%;
+      display: block; }
+      .stadu .row-flex .sort ul {
+        padding: 0;
+        margin: 0;
+        display: block; }
+        .stadu .row-flex .sort ul li {
+          display: inline-block;
+          width: 24%;
+          color: #fff; }
+          .stadu .row-flex .sort ul li h3 {
+            font-size: 40px;
+            font-weight: 100;
+            margin: 0;
+            line-height: 1; }
+          .stadu .row-flex .sort ul li p {
+            font-size: 12px;
+            margin: 0;
+            font-weight: 400; }
+    .stadu .row-flex .sestem {
+      width: 100%;
+      margin: 40px 0; }
+      .stadu .row-flex .sestem .sestem-img {
+        width: 100%; }
+        .stadu .row-flex .sestem .sestem-img img {
+          width: 80%;
+          height: 261px;
+          border-radius: 5px; }
+      .stadu .row-flex .sestem h4 {
+        font-size: 18px;
+        color: #fff;
+        line-height: 1;
+        margin: 0;
+        margin-top: 20px; }
+      .stadu .row-flex .sestem p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+        margin: 0; }
+
+.efficiency {
+  width: 100%;
+  height: 500px; }
+  .efficiency .bg-img1 {
+    width: 100%;
+    background: url("../img/phone_1.jpg") no-repeat;
+    height: 500px;
+    background-size: cover; }
+  .efficiency .bg-img2 {
+    width: 100%;
+    background: url("../img/businessman-using-smartphone-laptop-web.jpg") no-repeat;
+    height: 500px;
+    background-size: cover; }
+  .efficiency .bg-img3 {
+    width: 100%;
+    background: url("../img/8884b9983da09d509eecee720274cd23.jpg") no-repeat;
+    height: 500px;
+    background-size: cover; }
+  .efficiency .bg-img4 {
+    width: 100%;
+    background: url("../img/mackbook_mockup4.jpg") no-repeat;
+    height: 500px;
+    background-size: cover; }
+  .efficiency .effi-text h4 {
+    font-size: 30px;
+    color: #218dd6;
+    font-weight: 100; }
+  .efficiency .effi-text ul li {
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    padding: 0 28px;
+    font-weight: 100;
+    margin: 10px 0; }
+  .efficiency .effi-text ul li:before {
+    font-family: "FontAwesome";
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    color: #336;
+    font-size: 15px; }
+  .efficiency .effi-text h3 {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 0; }
+  .efficiency .effi-text p {
+    font-size: 20px;
+    font-weight: 100;
+    width: 50%; }
+  .efficiency .effi-text-left {
+    padding-left: 34%;
+    width: 100%; }
+    .efficiency .effi-text-left h4 {
+      font-size: 30px;
+      color: #218dd6;
+      font-weight: 100; }
+    .efficiency .effi-text-left ul li {
+      font-size: 16px;
+      color: #333;
+      position: relative;
+      padding: 0 28px;
+      font-weight: 100;
+      margin: 10px 0; }
+    .efficiency .effi-text-left ul li:before {
+      font-family: "FontAwesome";
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      color: #336;
+      font-size: 15px; }
+    .efficiency .effi-text-left h3 {
+      font-size: 40px;
+      line-height: 1;
+      margin-bottom: 0; }
+    .efficiency .effi-text-left p {
+      font-size: 20px;
+      font-weight: 100;
+      width: 50%; }
+
+/*# sourceMappingURL=main.css.map */

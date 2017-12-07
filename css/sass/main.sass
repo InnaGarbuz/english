@@ -1,0 +1,545 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: 'Open Sans', sans-serif
+	font-weight: normal
+	font-size: 14px
+	position: relative
+	line-height: 1.42857
+	font-weight: bold
+
+ul
+	list-style: none
+
+header
+	width: 100%
+	position: absolute
+	top: 20px
+	z-index: 9
+	.logo
+		width: 100%
+		img
+			width: 100%
+		a
+			text-transform: uppercase
+			font-size: 20px
+	.nav-bar
+		width: 100%
+		text-align: center
+		ul
+			padding: 0
+			margin: 0
+			li
+				display: inline-block
+				padding: 0 8px
+				a
+					color: #333
+				a.sosial
+					padding: 3px 0px
+					color: #333
+					font-size: 20px
+				a.login
+					border: 1px solid #333
+					padding: 5px 20px
+					border-radius: 20px
+					-webkit-transition: all .5s
+					-ms-transition: all .5s
+					-moz-transition: all .5s
+					-o-transition: all .5s
+					transition: all .5s
+				a.login:hover
+					background-color: #ff3d6f
+					border: 1px solid #ff3d6f
+					color: #fff
+
+.banner
+	width: 100%
+
+	background: url('../img/8.jpg')no-repeat
+	height: 100vh
+	background-size: cover
+	background-position: 0 0
+	position: relative
+	.banner-text
+		width: 400px
+		position: absolute
+		left: 7%
+		top: 16%
+		h1
+			font-size: 50px
+			font-weight: bold
+			line-height: 1
+		p
+
+			font-size: 18px
+	.bottom-panel
+		background: rgba(27, 52, 85, 0.69)
+		position: absolute
+		bottom: 0
+		width: 100%
+		padding: 0 20%
+		left: 0
+		p
+			color: #fff
+			padding: 20px 0
+
+.btn-red
+	width: 100%
+	margin: 10px 0
+	button
+		background: #ff3d6f
+		border: 1px solid #ff3d6f
+		padding: 8px 40px
+		color: #fff
+		border: none
+		width: 100%
+		border-radius: 20px
+		-webkit-transition: all .5s
+		-ms-transition: all .5s
+		-moz-transition: all .5s
+		-o-transition: all .5s
+		transition: all .5s
+	button:hover
+		background: none
+		color: #000
+		border: 1px solid #000
+	p, a
+		color: #000
+		font-size: 10px
+		padding: 0 10px
+		font-weight: 100
+	.line-bottom
+		padding: 0
+		border-bottom: 1px solid #c7c7c7
+.title-text
+	width: 100%
+	margin: 40px 0
+	h2
+		color: #fff
+		font-size: 50px
+		font-weight: bold
+		margin: 0
+		line-height: 1
+
+.title-text-black
+	width: 100%
+	margin: 40px 0
+	h2
+		color: #333
+		font-size: 50px
+		font-weight: bold
+		margin: 0
+		line-height: 1
+	p
+		font-weight: 40px
+		font-weight: 400
+		font-size: 20px
+		width: 40%
+.stadu
+	background: #20293a
+	padding: 40px 0
+	.row-flex
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-around
+		align-items: center
+		.stadu-input
+			width: 30%
+			margin: 0
+			height: 320px
+			.statu-img	
+				width: 100%
+				img
+					width: 100%
+					height: 236px
+					border-radius: 5px
+			p
+				color: #fff
+				font-size: 18px
+				font-weight: 400
+		.sort
+			width: 100%
+			display: block
+			ul
+				padding: 0
+				margin: 0
+				display: block
+				li
+					display: inline-block
+					width: 24%
+					color: #fff
+					text-align: center
+					h3
+						font-size: 40px
+						font-weight: 100
+						margin: 0
+						line-height: 1
+					p
+						font-size: 12px
+						margin: 0
+						font-weight: 400
+		.sestem
+			width: 100%
+			margin: 40px 0
+			.sestem-img
+				width: 100%
+				img
+					width: 100%
+					border-radius: 5px
+			h4
+				font-size: 18px
+				color: #fff
+				line-height: 1
+				margin: 0
+				margin-top: 20px
+			p
+				color: #fff
+				font-weight: 400
+				font-size: 18px
+				margin: 0
+
+
+.efficiency
+	width: 100%
+	height: 500px
+	.bg-img1
+		width: 100%
+		background: url('../img/phone_1.jpg')no-repeat
+		height: 500px
+		background-size: cover
+	.bg-img2
+		width: 100%
+		background: url('../img/businessman-using-smartphone-laptop-web.jpg')no-repeat
+		height: 500px
+		background-size: cover
+	.bg-img3
+		width: 100%
+		background: url('../img/8884b9983da09d509eecee720274cd23.jpg')no-repeat
+		height: 500px
+		background-size: cover
+	.bg-img4
+		width: 100%
+		background: url('../img/mackbook_mockup4.jpg')no-repeat
+		height: 500px
+		background-size: cover
+	.effi-text
+		h4
+			font-size: 30px
+			color: #218dd6
+			font-weight: 100
+		ul
+			li
+				font-size: 16px
+				color: #333
+				position: relative
+				padding: 0 28px
+				font-weight: 100
+				margin: 10px 0
+			li:before
+				font-family: "FontAwesome"
+				content: "\f00c"
+				position: absolute
+				left: 0
+				top: 0
+				display: block
+				color: #336
+				font-size: 15px
+		h3
+			font-size: 40px
+			line-height: 1
+			margin-bottom: 0
+		p
+			font-size: 20px
+			font-weight: 100
+			width: 50%
+	.effi-text-left
+		padding-left: 34%
+		width: 100%
+		h4
+			font-size: 30px
+			color: #218dd6
+			font-weight: 100
+		ul
+			li
+				font-size: 16px
+				color: #333
+				position: relative
+				padding: 0 28px
+				font-weight: 100
+				margin: 10px 0
+			li:before
+				font-family: "FontAwesome"
+				content: "\f00c"
+				position: absolute
+				left: 0
+				top: 0
+				display: block
+				color: #336
+				font-size: 15px
+		h3
+			font-size: 40px
+			line-height: 1
+			margin-bottom: 0
+		p
+			font-size: 20px
+			font-weight: 100
+			width: 50%
+
+
+
+.blue
+	background: #20293a
+	width: 100%
+	overflow: hidden
+	color: #fff
+
+
+.free-conntent
+	width: 100%
+	background-color: #FFF
+	border-radius: 4px
+	padding: 20px
+	h3
+		font-size: 30px
+		color: #333
+		font-weight: 400
+	ul
+		padding: 0
+		margin: 0
+		margin-bottom: 20px
+		text-align: center
+		li
+			display: inline-block
+			width: 23%
+			color: #000
+			font-weight: 400
+			margin-right: 20px
+	p
+		text-align: left
+
+	form
+		width: 100%
+		text-align: center
+		.form-input
+			width: 22%
+			display: inline-block
+			margin-bottom: 40px
+			margin-right: 20px
+			position: relative
+			input
+				width: 100%
+				border: 1px solid #e0e0e0
+				padding: 5px 10px
+				border-radius: 4px
+			input::placeholder
+				color: #e0e0e0
+				font-weight: 100
+			button
+				background: #ff3d6f
+				padding: 8px 26px
+				color: #fff
+				border: none
+				width: 100%
+				border: 1px solid #ff3d6f
+				border-radius: 20px
+				-webkit-transition: all .5s
+				-ms-transition: all .5s
+				-moz-transition: all .5s
+				-o-transition: all .5s
+				transition: all .5s
+			button:hover
+				background: none
+				color: #000
+				border: 1px solid #000
+			p
+				position: absolute
+				top: 100%
+				color: #000
+				font-size: 9px
+				left: 11%
+				font-weight: 100
+
+footer
+	width: 100%
+	color: #fff
+	margin: 20px 0 0 
+	font-weight: 100
+	font-size: 12px
+	.footer-content
+		ul
+			padding: 0
+			margin: 0
+
+			li
+				margin: 5px 0
+				a
+					color: #dfe0e2
+.footer-sub
+	width: 100%
+	margin: 20px 0
+	p
+		font-size: 12px
+		padding-left: 17px
+	.footer-sosial
+		padding: 0
+		margin: 10px 0
+		li
+			display: inline-block
+			margin: 0 8px
+			a
+				color: #dfe0e2
+
+
+.companies
+	width: 100%
+	margin: 5% 0
+	ul
+		margin: 0
+		padding: 0
+		li
+			display: inline-block
+			width: 14%
+			margin-right: 22px
+			img
+				width: 100%
+
+
+.slider
+	width: 100%
+	margin-bottom: 20px
+	.slider__items
+		width: 100%
+		.slider__item
+			background-color: #FFF
+			border-radius: 4px
+			padding: 20px
+			width: 95%
+			overflow: hidden
+			color: #333
+			font-weight: 400
+			position: relative
+			margin: 0 auto
+		.slider__header
+			width: 100%
+			overflow: hidden
+			.slider__img
+				width: 100%
+				border-radius: 50%
+				border: 1px soldi #c7c7c7
+				img
+					width: 100%
+			h5
+				font-weight: bold
+				font-size: 16px
+				margin: 0
+			a
+				position: absolute
+				top: 0
+				right: 0
+				font-size: 20px
+		.description
+			padding: 40px  20px 0
+
+
+
+.tabs-content
+	width: 100%
+	ul
+		padding: 0
+		margin: 0
+		li
+			display: inline-block
+			margin: 0 20px
+			cursor: pointer
+			color: #fff
+			text-decoration: underline
+			font-weight: 100
+		.active 
+			color: #218dd6
+			text-decoration: none
+	.tabs 
+		margin: 20px auto
+		.tabs-img
+			width: 100%
+			background: url('../img/noticia_100333.jpg')
+			height: 354px
+			background-size: cover
+		.tabs-img2
+			width: 100%
+			background: url('../img/Kak-obshhatsya-rieltoru-s-klientom.jpg')
+			height: 382px
+			background-size: cover
+		.tabs-img3
+			width: 100%
+			background: url('../img/grupo-multietnic.jpg')
+			height: 354px
+			background-size: cover
+		.tabs-img4
+			width: 100%
+			background: url('../img/how-to-answer-the-phone-e1486485774274.jpg')
+			height: 354px
+			background-size: cover
+		.tabs-img5
+			width: 100%
+			background: url('../img/dos-jovenes-empresarias-reunion-y-proceso-de-trabajo-en-la-oficina_1356-63.jpg')
+			height: 343px
+			background-size: cover
+		.info
+			display: none
+			width: 100%
+			background-color: #218dd6
+			color: #fff
+			padding: 0
+			overflow: hidden
+			border-radius: 4px
+			.title
+				width: 100%
+				padding: 0 20px
+				h4
+					font-size: 20px
+					font-weight: 100
+				
+				.title-img
+					width: 95%
+					margin: 0 auto
+					img
+						width: 100%
+				.img-text
+					margin: 0 0 0 50px
+					li
+						display: inline-block
+						width: 22%
+						margin: 0 0 0 37px
+						text-decoration: none
+			.footer-tabs
+				margin: 20px 0 0
+				background-color: #187bbe
+				.span
+					width: 65px
+					display: block
+					padding: 20px
+					float: left
+					background-color: #1570ae
+				ul
+					li
+						display: inline-block
+						text-decoration: none
+						margin: 0
+						padding: 20px
+						span
+							color: #004f88
+							margin-left: 10px
+		.active
+			display: block
+			
+.paddingNone
+	padding: 0
+
+
+.left-img
+	width: 86px
+	float: left
+	margin-right: 10px
+.effi-text
+	padding: 0 10px
