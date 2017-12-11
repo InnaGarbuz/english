@@ -86,16 +86,17 @@ header {
   .btn-red button {
     background: #ff3d6f;
     border: 1px solid #ff3d6f;
-    padding: 8px 40px;
+    padding: 14px 40px;
     color: #fff;
     border: none;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 78px;
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
-    transition: all 0.5s; }
+    transition: all 0.5s; 
+    font-size: 19px;}
   .btn-red button:hover {
     background: none;
     color: #000;
