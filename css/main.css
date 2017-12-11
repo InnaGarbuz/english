@@ -405,12 +405,13 @@ footer {
       background-color: #FFF;
       border-radius: 4px;
       padding: 20px;
-      width: 95%;
+      width: 95%;a
       overflow: hidden;
       color: #333;
       font-weight: 400;
       position: relative;
-      margin: 0 auto; }
+      margin: 0 auto;
+       height: 228px;}
     .slider .slider__items .slider__header {
       width: 100%;
       overflow: hidden; }
